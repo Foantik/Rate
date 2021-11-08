@@ -27,5 +27,21 @@ void deystvie(double a,double b) {
 		cout << "Неверный ввод";
 		otvet = 10;
 		break;
+<<<<<<< HEAD
 	}//REady product
+=======
+	if (otvet >= 0)
+		cout << "Осталось " << otvet << " секунд до взрыва";
+	if (otvet < 0) {
+		otvet *= -1;
+		cout << "Осталось " << otvet << "Секунд до взрыва";
+	}
+	for (int i = round(otvet);i > 0;i--) {
+		cout << endl << i;
+		Beep(5000, 200);
+		Sleep(1000);
+	}
+	Beep(10000, 2000);
+	Sleep(1000);
+>>>>>>> feature
 }
