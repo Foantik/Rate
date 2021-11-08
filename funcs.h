@@ -6,5 +6,10 @@ void deystvie(double a,double b) {
     char dey;
     cin >> dey;
     double otvet;
-   
+     switch (dey) {
+    case '+':
+        otvet = a + b;
+        cout << "Ответ: " << otvet << endl;
+        break;
+    case '-':
 }
