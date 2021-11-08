@@ -11,5 +11,9 @@ void deystvie(double a,double b) {
         otvet = a + b;
         cout << "Ответ: " << otvet << endl;
         break;
-    case '-':
+	case '-':
+        otvet = a - b;
+        cout << "Ответ: " << otvet << endl;
+        break;
+	 }
 }
