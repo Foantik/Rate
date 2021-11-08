@@ -9,7 +9,7 @@ void deystvie(double a,double b) {
      switch (dey) {
     case '+':
         otvet = a + b;
-        cout << "Ответ: " << otvet << endl;
+        cout << "Ответ: " << otvet << endl;//РАБОЧИЕ 
         break;
 	case '-':
         otvet = a - b;
