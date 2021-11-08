@@ -27,5 +27,5 @@ void deystvie(double a,double b) {
 		cout << "Неверный ввод";
 		otvet = 10;
 		break;
-	}
+	}//REady product
 }
