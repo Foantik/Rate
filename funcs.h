@@ -27,9 +27,8 @@ void deystvie(double a,double b) {
 		cout << "Неверный ввод";
 		otvet = 10;
 		break;
-<<<<<<< HEAD
+
 	}//REady product
-=======
 	if (otvet >= 0)
 		cout << "Осталось " << otvet << " секунд до взрыва";
 	if (otvet < 0) {
@@ -42,6 +41,5 @@ void deystvie(double a,double b) {
 		Sleep(1000);
 	}
 	Beep(10000, 2000);
-	Sleep(1000);
->>>>>>> feature
+	Sleep(1000);//ReleaseVer2
 }
