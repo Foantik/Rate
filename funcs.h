@@ -15,7 +15,6 @@ void deystvie(double a,double b) {
         otvet = a - b;
         cout << "Ответ: " << otvet << endl;
         break;
-	 }
 	 case '*':
 		otvet = a * b;
 		cout << "Ответ: " << otvet << endl;
@@ -24,4 +23,9 @@ void deystvie(double a,double b) {
 		otvet = a / b;
 		cout << "Ответ: " << otvet << endl;
 		break;//ready
+		default:
+		cout << "Неверный ввод";
+		otvet = 10;
+		break;
+	}
 }
